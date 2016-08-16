@@ -1,55 +1,116 @@
 {
-  "name": "bashpack",
-  "version": "0.0.16",
-  "private": false,
-  "author": "Patrick Debois <patrick.debois@jedi.be>",
-  "description": "packs a nodejs project into a single bash file",
-  "scripts": {
-    "test": "grunt test"
+  "_args": [
+    [
+      {
+        "name": "bashpack",
+        "raw": "bashpack@0.0.16",
+        "rawSpec": "0.0.16",
+        "scope": null,
+        "spec": "0.0.16",
+        "type": "version"
+      },
+      "/root/Documentos/biotrackerlinuxinstaller"
+    ]
+  ],
+  "_from": "bashpack@0.0.16",
+  "_id": "bashpack@0.0.16",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/bashpack",
+  "_npmUser": {
+    "email": "Patrick.Debois@jedi.be",
+    "name": "jedi4ever"
   },
-  "main": "./lib/bashpack.js",
+  "_npmVersion": "1.2.21",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "bashpack",
+    "raw": "bashpack@0.0.16",
+    "rawSpec": "0.0.16",
+    "scope": null,
+    "spec": "0.0.16",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://sinopia.devoz.com.br/bashpack/-/bashpack-0.0.16.tgz",
+  "_shasum": "31efdbac895a26b6196fea2569101d717bff4e1a",
+  "_shrinkwrap": null,
+  "_spec": "bashpack@0.0.16",
+  "_where": "/root/Documentos/biotrackerlinuxinstaller",
+  "author": {
+    "email": "patrick.debois@jedi.be",
+    "name": "Patrick Debois"
+  },
   "bin": {
     "bashpack": "./bin/bashpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jedi4ever/bashpack.git"
+  "bugs": {
+    "url": "https://github.com/jedi4ever/bashpack/issues"
   },
+  "dependencies": {
+    "async": "^0.2.9",
+    "commander": "^1.3.0",
+    "fstream-ignore": "^0.0.7",
+    "hashmerge": "^1.0.2",
+    "ncp": "^0.4.2",
+    "node-fetcher": ">=0.0.9",
+    "npm": "^3.10.6",
+    "temp": "^0.5.1",
+    "winston": "^0.7.2"
+  },
+  "description": "packs a nodejs project into a single bash file",
+  "devDependencies": {
+    "assert": "*",
+    "blanket": "~1.1.5",
+    "expect.js": "*",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-mocha-test": "~0.5.0",
+    "grunt-release": "~0.3.5",
+    "jscoverage": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "nodewatch": "*",
+    "shelljs": "~0.1.4",
+    "should": "0.5.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "31efdbac895a26b6196fea2569101d717bff4e1a",
+    "tarball": "http://sinopia.devoz.com.br/bashpack/-/bashpack-0.0.16.tgz"
+  },
+  "engine": {
+    "node": ">=0.8"
+  },
+  "homepage": "https://github.com/jedi4ever/bashpack#readme",
   "keywords": [
     "binary",
     "packaging",
     "distribution",
     "package"
   ],
-  "dependencies": {
-    "commander": "1.3.0",
-    "winston": "0.7.2",
-    "node-fetcher": ">=0.0.9",
-    "async": "~0.2.9",
-    "temp": "~0.5.1",
-    "ncp": "~0.4.2",
-    "hashmerge": "~1.0.2",
-    "fstream-ignore": "0.0.7",
-    "npm": "~1.3.9"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "jshint": "*",
-    "jscoverage": "*",
-    "nodewatch": "*",
-    "assert": "*",
-    "expect.js": "*",
-    "should": "0.5.1",
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-watch": "~0.4.4",
-    "grunt-release": "~0.3.5",
-    "grunt-mocha-test": "~0.5.0",
-    "blanket": "~1.1.5",
-    "shelljs": "~0.1.4"
-  },
   "license": "MIT",
-  "engine": {
-    "node": ">=0.8"
-  }
+  "main": "./lib/bashpack.js",
+  "maintainers": [
+    {
+      "email": "Patrick.Debois@jedi.be",
+      "name": "jedi4ever"
+    }
+  ],
+  "name": "bashpack",
+  "optionalDependencies": {},
+  "private": false,
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedi4ever/bashpack.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "0.0.16"
 }
